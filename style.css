@@ -1,0 +1,150 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.another_color_text{
+    color: blue;
+}
+
+.menu{
+    height: 100px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 40px;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: #000;
+    padding: 6px 17px;
+    border-radius: 4px;
+}
+
+.top_header_menu a:hover{
+    background-color: rgba(0, 0, 255, 0.493);
+    color: #ffffff;
+    box-shadow: 1px 1px rgb(128, 128, 128);
+}
+
+
+.sec1_main_div{
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+.sec1_div1{
+    width: 55%;
+    margin-left: 7%;
+    padding-top: 100px;
+}
+.sec1_div1 h1{
+    font-weight: 800;
+}
+.sec1_div1 a{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue , blue);
+    border-radius: 15px;
+    padding: 10px 16px;
+    color: #fff;
+}
+.sec1_div2{
+    width: 40%;
+}
+.sec1_div2 img{
+    height: 400px;
+}
+
+.section2{
+    height: 400px;
+    background-image: url(imges/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.sec2_div1{
+    width: 50%;
+}
+.sec2_div1 img{
+    height: 400px;
+    padding-left: 100px;
+}
+.sec2_div2{
+    width: 50%;
+    padding: 150px 70px;
+    text-align: justify;
+}
+.sec2_div2 h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.sec2_div2 a{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue , blue);
+    border-radius: 15px;
+    padding: 10px 16px;
+    color: #fff;
+}
+.section3{
+    height: 570px;
+}
+.sec3_header{
+    text-align: justify;
+    width: 300px;
+    margin: 4px auto;
+}
+.sec3_header h1{
+    text-align: center;
+    font-weight: 600;
+}
+.sec3_main_div{
+    height: 200px;
+    display: flex;
+    margin: 0 90px;
+}
+.sec3_div123{
+    height: 400px;
+    width: 28%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 13px;
+    position: relative;
+    text-align: justify;
+    box-shadow: 8px 8px 16px rgba(128, 128, 128, 0.486);
+}
+.sec3_div123 img{
+    height: 200px;
+    width: 340px; 
+}
+
+
+.section4{
+    height: 100px;
+    display: flex;
+    margin: 40px 100px;
+    box-shadow: 5px 7px 15px rgba(128, 128, 128, 0.397);
+}
+.section4_div123{
+    width: 33%;
+    padding: 20px 100px;
+    text-align: center;
+}
+.section4_div123 h1{
+    margin: 0;
+    font-weight: 900;
+}
+
+
+footer{
+    height: 150px;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    margin-top: 78px;
+    color: rgb(170, 157, 157);
+}
