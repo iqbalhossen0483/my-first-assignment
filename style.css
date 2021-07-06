@@ -6,13 +6,32 @@ body{
     color: blue;
 }
 
-.menu{
-    height: 100px;
+.top_header_menu{
+    height: 90px;
+    display: flex;
 }
+.menu , .logo{
+    width: 50%;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-bottom: 0;
+    font-weight: 900;
+}
+.logo h4{
+    margin: 0;
+    letter-spacing: 6px;
+}
+.logo img{
+    height: 80px;
+}
+
+
 .menu ul{
     list-style: none;
     display: flex;
-    float: right;
     margin-right: 40px;
 }
 .menu a{
