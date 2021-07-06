@@ -156,6 +156,35 @@ body{
     font-weight: 900;
 }
 
+.section5 .header{
+    text-align: center;
+    margin-top: 40px;
+}
+.customer_reviwe123{
+    display: flex;
+    padding: 27px 100px;
+}
+.customer_reviwe1_div1{
+    display: flex;
+    padding: 7px;
+    height: auto;
+    width: 33%;
+}
+.section5_img img{
+    height: 80px;
+}
+.section5_name{
+    padding: 0 10px;
+}
+.section5_name .date{
+    color: rgba(0, 0, 255, 0.5);
+}
+.section5_name p{
+    color: orange;
+}
+.section5_name h3 , .section5_name p , .section5_name small{
+    margin: 0;
+}
 
 footer{
     height: 150px;
@@ -167,3 +196,4 @@ footer p{
     margin-top: 78px;
     color: rgb(170, 157, 157);
 }
+
